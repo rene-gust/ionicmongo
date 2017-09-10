@@ -1,6 +1,8 @@
 {
-  "name": "ionicmongo",
-  "app_id": "",
+  "name": "Coconut Oil Benefits",
+  "app_id": "83cb5e25",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {HowToBuyPage} from "../how-to-buy/how-to-buy";
 
 @Component({
   selector: 'page-about',
@@ -11,4 +12,7 @@ export class AboutPage {
 
   }
 
+  goBuy() {
+    this.navCtrl.push(HowToBuyPage);
+  }
 }
